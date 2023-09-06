@@ -1,0 +1,57 @@
+
+*{ 
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+
+.container
+{
+ width:90%;
+ height:auto;
+ /* border:double 10px black;
+outline:solid 2px hsl(0, 98%, 51%); */
+/*this will produce a 10px inner and 2px outer "border*/
+border:solid 10px black;
+outline: solid 2px red;
+/* (this will produce a 1px inner and 4px outer "border", if you can call it that) */
+
+ }
+
+ .blue-box1
+ {
+    background-color:#5A95E2;
+    height: 90px;
+
+ }
+    
+ .box1
+{
+    display: inline-block;
+    height: 80px;
+    width:24.6%;
+    background-color:#E87B43;
+}
+.box2
+{
+    display: inline-block;
+    height: 80px;
+    width:24.6%;
+    background-color:#784100;
+}
+
+.box3
+{
+    display: inline-block;
+    height: 80px;
+    width:24.6%;
+    background-color:#FF7499;
+}
+.box4
+{
+    display: inline-block;
+    height: 80px;
+    width:24.6%;
+    background-color:#5A5AB2;
+}
